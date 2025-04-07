@@ -1,0 +1,112 @@
+[2025-04-07 19:16:08] [Wave Sync] Raw customer response:
+Array
+(
+    [data] => Array
+        (
+            [businesses] => Array
+                (
+                    [edges] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [node] => Array
+                                        (
+                                            [id] => QnVzaW5lc3M6NzdlZDkzYWQtMzlmZS00YTkxLWI0YTYtZGQ0OTdlODY2NTBk
+                                            [name] => Bert & Bird Rentals
+                                            [customers] => Array
+                                                (
+                                                    [edges] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [node] => Array
+                                                                        (
+                                                                            [id] => QnVzaW5lc3M6NzdlZDkzYWQtMzlmZS00YTkxLWI0YTYtZGQ0OTdlODY2NTBkO0N1c3RvbWVyOjkzMTA1MDAw
+                                                                            [email] => brittebailey@gmail.com
+                                                                            [firstName] => Melanie
+                                                                            [lastName] => Bailey
+                                                                        )
+
+                                                                )
+
+                                                            [1] => Array
+                                                                (
+                                                                    [node] => Array
+                                                                        (
+                                                                            [id] => QnVzaW5lc3M6NzdlZDkzYWQtMzlmZS00YTkxLWI0YTYtZGQ0OTdlODY2NTBkO0N1c3RvbWVyOjkzMDYxNjYz
+                                                                            [email] => birdiegolden@gmail.com
+                                                                            [firstName] => Birdie
+                                                                            [lastName] => Golden
+                                                                        )
+
+                                                                )
+
+                                                            [2] => Array
+                                                                (
+                                                                    [node] => Array
+                                                                        (
+                                                                            [id] => QnVzaW5lc3M6NzdlZDkzYWQtMzlmZS00YTkxLWI0YTYtZGQ0OTdlODY2NTBkO0N1c3RvbWVyOjkzMDU2OTYz
+                                                                            [email] => birdie@birdhousewebsites.com
+                                                                            [firstName] => Birdie
+                                                                            [lastName] => Golden
+                                                                        )
+
+                                                                )
+
+                                                            [3] => Array
+                                                                (
+                                                                    [node] => Array
+                                                                        (
+                                                                            [id] => QnVzaW5lc3M6NzdlZDkzYWQtMzlmZS00YTkxLWI0YTYtZGQ0OTdlODY2NTBkO0N1c3RvbWVyOjkzMDM2NzA1
+                                                                            [email] => britt@brittbaileyart.com
+                                                                            [firstName] => Brittany
+                                                                            [lastName] => Bailey
+                                                                        )
+
+                                                                )
+
+                                                            [4] => Array
+                                                                (
+                                                                    [node] => Array
+                                                                        (
+                                                                            [id] => QnVzaW5lc3M6NzdlZDkzYWQtMzlmZS00YTkxLWI0YTYtZGQ0OTdlODY2NTBkO0N1c3RvbWVyOjkzMDA2ODIx
+                                                                            [email] => support@birdhousewebsites.com
+                                                                            [firstName] => Birdie
+                                                                            [lastName] => Golden
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[2025-04-07 19:16:08] [Wave Sync] Processing: brittebailey@gmail.com
+[2025-04-07 19:16:08] [Wave Sync] Created: brittebailey@gmail.com
+[2025-04-07 19:16:08] [Wave Sync] Processing: birdiegolden@gmail.com
+[2025-04-07 19:16:08] [Wave Sync] Created: birdiegolden@gmail.com
+[2025-04-07 19:16:08] [Wave Sync] Processing: birdie@birdhousewebsites.com
+[2025-04-07 19:16:08] [Wave Sync] Skipped: birdie@birdhousewebsites.com (already exists)
+[2025-04-07 19:16:08] [Wave Sync] Processing: britt@brittbaileyart.com
+[2025-04-07 19:16:08] [Wave Sync] Skipped: britt@brittbaileyart.com (already exists)
+[2025-04-07 19:16:08] [Wave Sync] Processing: support@birdhousewebsites.com
+[2025-04-07 19:16:08] [Wave Sync] Skipped: support@birdhousewebsites.com (already exists)
+[2025-04-07 19:16:08] [Admin Sync] Manual sync executed. Summary:
+Sync Summary: Added: 2 | Updated: 0 | Skipped: 3 | Deleted: 0 | Failed: 0
+Created user: brittebailey@gmail.com
+Created user: birdiegolden@gmail.com
+Skipped: birdie@birdhousewebsites.com (already exists)
+Skipped: britt@brittbaileyart.com (already exists)
+Skipped: support@birdhousewebsites.com (already exists)

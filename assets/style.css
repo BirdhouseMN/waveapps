@@ -1,0 +1,115 @@
+:root {
+  --dark-green: #264653;
+  --accent-coral: #d37d52;
+  --sage: #a7b4a1;
+  --charcoal: #3a3a3a;
+	--white: #ffffff;
+}
+
+.wave-invoice-portal {
+  border: 1px solid var(--sage);
+  border-radius: 6px;
+  font-family: sans-serif;
+  color: var(--charcoal);
+	padding: 20px;
+}
+
+.wave-filters {
+  margin-bottom: 20px;
+}
+
+.wave-filters a {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 6px 14px;
+  background: var(--sage);
+  color: var(--white)!important;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.wave-filters a.active,
+.wave-filters a:hover {
+  background: var(--dark-green);
+  color: #fff;
+}
+
+.wave-invoice-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.wave-invoice-table th,
+.wave-invoice-table td {
+  border: 1px solid var(--sage);
+  padding: 12px;
+  text-align: left;
+}
+
+.wave-invoice-table th {
+  background: #f8f8f8;
+  color: var(--dark-green);
+}
+
+.wave-invoice-table td a {
+  color: var(--dark-green);
+  text-decoration: none;
+}
+
+.wave-invoice-table td a:hover {
+  color: var(--accent-coral);
+  text-decoration: underline;
+}
+
+.wave-balance {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: var(--dark-green);
+}
+
+.wave-export-btn {
+  margin-top: 20px;
+  background: var(--dark-green);
+  color: #fff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.wave-export-btn:hover {
+  background: var(--accent-coral);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .wave-invoice-table th,
+  .wave-invoice-table td {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  .wave-export-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* SECTIONS */
+a {
+  color: var(--accent-coral)!important;
+}
+
+.et_pb_section .et_pb_section {
+	padding: 0;
+}
+.et_pb_row .et_pb_row {
+	width: 100%;
+	max-width: 100%;
+}
